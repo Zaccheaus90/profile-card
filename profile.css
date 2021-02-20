@@ -1,0 +1,68 @@
+body{
+  background-color: #28abb9;
+  background-image: url("images/bg-pattern-top.svg"),
+                   url("images/bg-pattern-bottom.svg");
+  background-position: bottom,top;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 300px;
+  height: 430px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: translate(-50%,-50%);
+}
+.upper-container{
+  background-image: url("images/bg-pattern-card.svg");
+  height: 150px;
+}
+.lower-container{
+  background-color: white;
+  height: 280px;
+  display: inline-block;
+  text-align: center;
+}
+.image-container{
+  background: white;
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+  border-radius: 50%;
+  transform: translate(100px,100px);
+}
+.image-container img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.text{
+  margin-top: 18px;
+  text-align: center;
+  font-size: 18px;
+}
+.desc{
+  display: flex;
+  padding-top: 45px;
+  justify-content: space-between;
+  margin-right: 2.15rem;
+  margin-left: 2.15rem;
+}
+.base1{
+  margin-right: 3rem;
+}
+.base2{
+  margin-right: 3rem;
+}
+span{
+  font-size: 14px;
+}
+.name{
+  padding-top: 65px;
+}
+hr {
+  margin-top: 3rem;
+}
